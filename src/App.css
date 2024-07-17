@@ -1,0 +1,54 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  background-color: #f7f9fc;
+  font-family: 'Merriweather', serif; /* Elegant font family */
+  color: #000; /* Black text color */
+}
+
+.welcome-message {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  font-size: 18px;
+}
+
+.app-header {
+  background-color: #000; /* Black background */
+  color: white;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  padding: 0 20px; /* Padding on left and right */
+  height: 80px; /* Fixed height to ensure vertical centering */
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  border-bottom: 3px solid #333; /* Darker border */
+}
+
+.app-content {
+  flex: 1;
+  padding: 30px;
+  padding-top: 0; /* Padding top set to 0 */
+  background-color: #f7f9fc;
+}
+
+.app-footer {
+  background-color: #000; /* Black background */
+  color: white;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  padding: 0 15px; /* Padding on left and right */
+  height: 60px; /* Fixed height to ensure vertical centering */
+  text-align: center;
+  font-size: 16px;
+  border-top: 3px solid #333; /* Darker border */
+}
+
